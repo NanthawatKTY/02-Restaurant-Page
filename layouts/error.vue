@@ -1,3 +1,15 @@
+<script setup lang="ts">
+    useHead({
+        title: '404 - Restaurant not found',
+        meta: [
+            {
+                name: 'viewport',
+                content: 'width=device-width, initial-scale=1'
+            }
+        ]
+    })
+</script>
+
 <template>
     <div>
         <slot name="header" />
