@@ -11,7 +11,7 @@
 <template>
     <div class="row" v-if="isHeader">
         <h4 class="header">Rank</h4>
-        <h4 class="header">Name</h4>
+        <h4 class="header">Chain</h4>
     </div>
     <div 
         v-else
