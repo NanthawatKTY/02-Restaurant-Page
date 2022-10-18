@@ -1,5 +1,11 @@
 <template>
   <div>
-    <NuxtWelcome />
+    <NuxtLayout>
+      <Navbar />
+      <NuxtPage/>
+    </NuxtLayout>
   </div>
 </template>
+
+<style scoped>
+</style>
