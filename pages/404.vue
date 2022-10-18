@@ -1,8 +1,8 @@
 <template>
     <div>
         <div class="container">
-            <h1>Welcome to The Namo's Restaurant</h1>
-            <NuxtLink href="/restaurants">Go to restaurants</NuxtLink>
+            <h1>Page not found</h1>
+            <NuxtLink href="/">Go to homepage</NuxtLink>
         </div>
     </div>
 </template>
