@@ -2,7 +2,7 @@
     <div>
         <div class="container">
             <h1>Welcome to The Namo's Restaurant</h1>
-            <a href="/restaurants">Go to restaurants</a>
+            <NuxtLink href="/restaurants">Go to restaurants</NuxtLink>
         </div>
     </div>
 </template>
