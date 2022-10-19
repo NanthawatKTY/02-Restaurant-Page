@@ -1,7 +1,13 @@
+<script>
+
+</script>
+
 <template>
     <div>
-        <div class="container">
-            <RestaurantsTable />
-        </div>
+        <NuxtLayout name="restaurant-ad">
+            <div class="container">
+                <RestaurantsTable />
+            </div>
+        </NuxtLayout>
     </div>
 </template>

@@ -1,8 +1,17 @@
 <template>
     <div>
         <div class="container">
-            <h1>Page not found</h1>
-            <NuxtLink href="/">Go to homepage</NuxtLink>
+            <NuxtLayout name="error">
+              <template #header>
+                <h1>Page not found</h1>
+              </template>
+
+              <!-- Image sad face is between #header and redirectEl -->
+
+              <template #redirectEl>
+                <NuxtLink href="/">Go to homepage</NuxtLink>
+              </template>
+            </NuxtLayout>
         </div>
     </div>
 </template>
